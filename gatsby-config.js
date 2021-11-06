@@ -20,6 +20,7 @@ module.exports = {
         name: `projects`,
         path: `${__dirname}/src/projects`,
       }
-    }
+    },
+    "gatsby-plugin-mdx",
   ],
 };
