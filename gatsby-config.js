@@ -10,10 +10,16 @@ module.exports = {
     "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
-      options: {
+      options: [{
         name: `data`,
         path: `${__dirname}/src/data`,
+      }, 
+      
+      {
+        name: `projects`,
+        path: `${__dirname}/projects`
       }
+    ]
     }
   ],
 };
