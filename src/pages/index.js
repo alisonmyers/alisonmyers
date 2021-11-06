@@ -18,13 +18,6 @@ const IndexPage = () => {
         <h2>My Courses</h2>
         <CourseTimeLine></CourseTimeLine>
       </div>
-      
-      <div>
-      <a href={`../static/ETEC520_Assignment1.pdf`} target="_blank" rel="noreferrer" id="email">
-        <FaNews className="social-icon"></FaNews>
-        resume
-      </a>
-      </div>
     </Layout>
   )
 }
