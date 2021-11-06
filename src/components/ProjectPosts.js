@@ -17,7 +17,7 @@ export default function PageTemplate({ data: { mdx } }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String) {
+  query BlogprojectQuery($id: String) {
     mdx(id: { eq: $id }) {
       id
       body
