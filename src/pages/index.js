@@ -14,9 +14,17 @@ const IndexPage = () => {
         alt="A picture of Vancouver"
         src="../images/vancouver_city.jpg"
       />
-      <h2>My Courses</h2>
-      <CourseTimeLine></CourseTimeLine>
-          
+      <div>
+        <h2>My Courses</h2>
+        <CourseTimeLine></CourseTimeLine>
+      </div>
+      
+      <div>
+      <a href={`../static/ETEC520_Assignment1.pdf`} target="_blank" rel="noreferrer" id="email">
+        <FaNews className="social-icon"></FaNews>
+        resume
+      </a>
+      </div>
     </Layout>
   )
 }
