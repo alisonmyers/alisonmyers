@@ -24,7 +24,6 @@ const ProjectsPage = ({ data }) => {
                 <p> {post.frontmatter.quickdetail} </p>
               </section> 
             
-            
           </article>
         ))
       }
