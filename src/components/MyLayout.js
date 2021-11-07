@@ -14,14 +14,14 @@ const Layout = ({ pageTitle, children }) => {
   `)
 
   return (
-    <div className="container">
+    <div className="global-wrapper">
 
-      <div className="top-banner">
+      
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-        <header>
+        <header className = "global-header">
           <h2 className="site-title">{data.site.siteMetadata.title}</h2>
           <h3 className="site-description">{data.site.siteMetadata.description}</h3>
-        </header>
+        
       
         <nav>
         <ul className="nav-links">
@@ -43,7 +43,8 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
 
-      </div>
+      </header>
+      
       
       <main>
         <h1 className="main-heading">{pageTitle}</h1>

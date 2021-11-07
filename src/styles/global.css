@@ -16,7 +16,7 @@
     --maxWidth-3xl: 48rem;
     --maxWidth-4xl: 56rem;
     --maxWidth-full: "100%";
-    --maxWidth-wrapper: var(--maxWidth-2xl);
+    --maxWidth-wrapper: var(--maxWidth-full); /* was --maxWidth-2xl*/
     --spacing-px: "1px";
     --spacing-0: 0;
     --spacing-1: 0.25rem;
@@ -257,6 +257,7 @@
   
   .global-header {
     margin-bottom: var(--spacing-12);
+    background-color: var(--color-heading-black);
   }
   
   .main-heading {
@@ -338,11 +339,6 @@
   }
   
 /* My Styles from before */
-.container {
-    margin: 0px;
-    max-width: 100%;
-    font-family: sans-serif;
-  }
   
 .top-banner {
   margin: 0px;
