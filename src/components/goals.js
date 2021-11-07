@@ -1,5 +1,5 @@
 import React from "react"
-import GoalData from "../data/Goals.json"
+import GoalData from "../data/MyGoals.json"
 
 const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
