@@ -14,15 +14,13 @@ const Layout = ({ pageTitle, children }) => {
   `)
 
   return (
-    <div className="global-wrapper">
-
-      
+    <div>
+      <div className="global-header">
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-        <header className = "global-header">
+        <header>
           <h2 className="site-title">{data.site.siteMetadata.title}</h2>
           <h3 className="site-description">{data.site.siteMetadata.description}</h3>
-        
-      
+        </header>
         <nav>
         <ul className="nav-links">
           <li className="nav-link-item">
@@ -42,14 +40,15 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
+      </div>
+      
+      <div className="global-wrapper">
+        <main>
+          <h1 className="main-heading">{pageTitle}</h1>
+          {children}
+        </main>
+      </div>
 
-      </header>
-      
-      
-      <main>
-        <h1 className="main-heading">{pageTitle}</h1>
-        {children}
-      </main>
     </div>
   )
 }
