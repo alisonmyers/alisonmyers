@@ -4,7 +4,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { GiGraduateCap } from "@react-icons/all-files/gi/GiGraduateCap";
 
-
 const CourseTimeLine = () => (
       <VerticalTimeline>
 
