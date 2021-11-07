@@ -19,7 +19,7 @@ const GoalIcon = ({iconName}) => {
 const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
         return (
-            <div key={i}>
+            <div key={i} class="goal-card">
                 <div style={{display: "flex", justifyContent: "left"}}>
                 <h2>
                     <GoalIcon iconName={data.goal_num} size={20}/> <span> Goal  {data.goal_num} </span>

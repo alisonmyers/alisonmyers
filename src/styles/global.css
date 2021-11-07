@@ -412,7 +412,7 @@ ul.icons > li {
 
 .goal-card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   background-color: var(--color-accent);
