@@ -1,0 +1,25 @@
+{
+    "title": "My Goals",
+    "goals": [
+        {
+            "goal_num": "1",
+            "goal_title": "Goal Summary",
+            "goal_description": "long description of goal",
+            "goal_artifacts": ["a", "b", "c"]
+        },
+
+        {
+            "goal_num": "2",
+            "goal_title": "Goal Summary",
+            "goal_description": "long description of goal",
+            "goal_artifacts": ["a", "b", "c"]
+        },
+        
+        {
+            "goal_num": "3",
+            "goal_title": "Goal Summary",
+            "goal_description": "long description of goal",
+            "goal_artifacts": ["a", "b", "c"]
+        }
+    ]
+}
