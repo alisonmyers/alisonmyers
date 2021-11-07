@@ -19,12 +19,6 @@ module.exports = {
       options: {
         name: `projects`,
         path: `${__dirname}/src/projects`,
-      },
-
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `images`,
-        path: path.join(__dirname, `src`, `images`),
       }
     },
     "gatsby-plugin-mdx",
