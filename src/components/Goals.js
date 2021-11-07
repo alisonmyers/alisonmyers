@@ -5,8 +5,8 @@ const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
         return (
             <div key={i}>
-                <h2>#{data.goal_num} {data.goal_title}</h2>
-                <p>{data.goal_description}</p>
+                <h2 className="blog-post">#{data.goal_num} {data.goal_title}</h2>
+                <p className="blog-post">{data.goal_description}</p>
             </div>
         )
     }
