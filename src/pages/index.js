@@ -12,7 +12,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="This Portfolio">
 
-      <PDFViewer backend={PDFJSBackend} src="../pdfs/pdf.pdf"/>
+      <PDFViewer backend={PDFJSBackend} src="/myPDF.pdf"
+      />
 
       <div className="main-heading">
         <h3>Hello, and welcome to my ePortfolio! </h3>
