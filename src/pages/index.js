@@ -3,7 +3,7 @@ import * as React from 'react'
 import Layout from '../components/my-layout'
 import CourseTimeLine from '../components/courses'
 import GoalsHtml from '../components/goals'
-
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 // Step 2: Define your component
