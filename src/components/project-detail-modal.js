@@ -1,5 +1,5 @@
-import React from "react";
-import Modal from "react-bootstrap/Modal";
+import React, {useState} from "react";
+import {Modal, Button} from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 
 const ProjectDetailModal = () => {
@@ -28,9 +28,6 @@ const ProjectDetailModal = () => {
             </AwesomeSlider>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" onClick={handleClose}>
-              Close
-            </Button>
           </Modal.Footer>
         </Modal>
       </>
