@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {Modal, Button} from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 
+
 const ProjectDetailModal = () => {
 
     const [show, setShow] = useState(false);
