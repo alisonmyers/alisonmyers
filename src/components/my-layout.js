@@ -15,6 +15,8 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     
+    <React.Fragment>
+
     <div>      
       <header className="global-header">
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
@@ -49,13 +51,18 @@ const Layout = ({ pageTitle, children }) => {
       </nav>
 
       </header>
+      </div>
       
-      
+      <div>
       <main className ="global-wrapper">
         <h1 className="main-heading">{pageTitle}</h1>
         {children}
       </main>
     </div>
+
+    </React.Fragment>
+
+    
   )
 }
 
