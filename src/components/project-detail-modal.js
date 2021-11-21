@@ -15,21 +15,23 @@ class ProjectDetailsModal extends Component {
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
-        className="modal-inside"
+        dialogClassName="my-modal"
       >
+        <Modal.Header closeButton>
+          <Modal.Title>{title}</Modal.Title>
+        </Modal.Header>
+        
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <AwesomeSlider
-              animation="scaleOutAnimation"
-            >
-                      <div className="col-md-10 mx-auto">
+            <AwesomeSlider>
+                    <div className="col-md-10 mx-auto">
                     <h3 style={{ padding: "5px 5px 0 5px" }}>
                       {title}
                     </h3>
-                    <p className="modal-description">{description}</p>
+                    <p>{description}</p>
                   </div>
              
             </AwesomeSlider>

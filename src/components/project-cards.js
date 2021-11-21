@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./project-detail-modal";
+import { Button } from "react-bootstrap";
 
 class Projects extends Component {
   constructor(props) {
@@ -22,20 +23,8 @@ class Projects extends Component {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <span className="project-date">{projects.date}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
-              </div>
-            </span>
+            key={projects.id}>
+              <Button onClick={() => detailsModalShow(projects)}>{projects.title}</Button>
           </div>
         );
       });
