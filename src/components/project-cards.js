@@ -72,22 +72,5 @@ class Projects extends Component {
   }
 }
 
-export const query = graphql`
-  query {
-    allMdx (sort: {fields: frontmatter___date, order: ASC}){
-      nodes {
-        frontmatter {
-          title
-          date(formatString: "MMMM DD, YYYY")
-          quickdetail
-          goals
-        }
-        id
-        slug
-        excerpt(pruneLength: 200)
-      }
-    }
-  }
-`
 
 export default Projects;

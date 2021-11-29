@@ -29,7 +29,7 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
             <AwesomeSlider>
-                  <div className="pdf-container"> 
+                  <div className="pdf-container" data-src="./images/vancouver_city.png"> 
                       <h3>Description</h3>
                       <p>{description}</p>
                   </div>
