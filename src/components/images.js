@@ -4,35 +4,44 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 
-const ImageSlider = ({ data }) => {
-
-    const images = data.allFile.edges;
+const ImageSlider = (props) => {
+    const data = props.allFile.edges; 
 
     return (
-        {
-            images.map(image => (
+        <React.Fragment>
+             {
+            data.map(node => (
                 <div>
-                    <p>{image.node.id}</p>
+                    <p>{node.id}</p>
                 </div>
-        ))}
-        
+            ))}
+        </React.Fragment>
+           
   )
 }
 
-export const pageQuery = graphql`
-    query ReturnImagesQuery {
-        allFile(filter: {sourceInstanceName: {eq: "images"}}) {
-        edges {
-            node {
-            id
-            name
-            relativePath
-            childImageSharp{
-                gatsbyImageData(layout:FIXED)
-    
-            }
-            }
+export default props => (
+    <StaticQuery>
+        query={graphql`
+                query ReturnImagesQuery {
+                    allFile(filter: {sourceInstanceName: {eq: "images"}}) {
+                    edges {
+                        node {
+                        id
+                        name
+                        relativePath
+                        childImageSharp{
+                            gatsbyImageData(layout:FIXED)
+                
+                        }
+                        }
+                    }
+                    }
+                }
+            `
         }
-        }
-    }
-`
+    </StaticQuery>
+)
+
+
+export default ImageSlider
