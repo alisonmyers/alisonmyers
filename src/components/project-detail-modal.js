@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import AwesomeSlider from "react-awesome-slider";
 
 import Slider from "react-slick";
 
