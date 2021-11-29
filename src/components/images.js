@@ -1,47 +1,54 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 
-const ImageSlider = (props) => {
-    const data = props.allFile.edges; 
+const ImageSlider = () => {
 
-    return (
-        <React.Fragment>
-             {
-            data.map(node => (
-                <div>
-                    <p>{node.id}</p>
-                </div>
-            ))}
-        </React.Fragment>
-           
-  )
-}
-
-export default props => (
-    <StaticQuery>
-        query={graphql`
-                query ReturnImagesQuery {
-                    allFile(filter: {sourceInstanceName: {eq: "images"}}) {
-                    edges {
-                        node {
-                        id
-                        name
-                        relativePath
-                        childImageSharp{
-                            gatsbyImageData(layout:FIXED)
-                
-                        }
-                        }
-                    }
-                    }
+    const data = useStaticQuery(
+        graphql`
+        query ReturnImagesQuery {
+            allFile(filter: {sourceInstanceName: {eq: "images"}}) {
+            edges {
+                node {
+                id
+                name
+                relativePath
+                childImageSharp{
+                    gatsbyImageData(layout:FIXED)
+        
                 }
-            `
+                }
+            }
+            }
         }
-    </StaticQuery>
-)
+    `
+    );
+
+    const imageData = data.allFile.edges;
+    console.log(imageData)
+
+    imageData.forEach(node => console.log(node))
+
+
+    return(
+        <div>
+            <h1>Hello</h1>
+            {
+                imageData.map(({node}, i) => (
+                    <div key={i}>
+                        <p>{node.name}</p>
+                        <GatsbyImage image={getImage(node)} />
+                        
+                    </div>
+                ))
+            }
+        </div>
+    )
+
+
+}
 
 
 export default ImageSlider
