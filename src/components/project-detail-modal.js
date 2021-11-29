@@ -13,8 +13,6 @@ class ProjectDetailsModal extends Component {
       var description = this.props.data.description;
       var connections = this.props.data.connections;
       var reflection = this.props.data.reflection;
-      var id = this.props.data.id;
-     
     }
 
     var settings = {
@@ -42,7 +40,7 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
             <Slider {...settings}>
-                  <div className="pdf-container" data-src="./images/vancouver_city.png"> 
+                  <div className="pdf-container"> 
                       <h3>Description</h3>
                       <p>{description}</p>
                   </div>
