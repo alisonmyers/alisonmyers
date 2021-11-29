@@ -72,10 +72,10 @@
         },
 
         {
-            "id": "ETEC512-1",
+            "id": "ETEC524-1",
             "title": "A Course Companion Website",
             "date": "2019-09-01",
-            "course": "ETEC 512",
+            "course": "ETEC 524",
             "goals": ["1", "4"],
             "type": "website",
             "description": "'How do we learn?' Learning theories describe how ",
