@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
 import Projects from '../components/project-cards'
-import ProjectData from '../data/MyProjects.json'
+import ProjectData from '../data/myprojects.json'
 import getObjects from '../api/get-object'
 
 
