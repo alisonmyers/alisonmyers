@@ -10,11 +10,12 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
       <p>About Me Section.</p>
-
+      <div>
+        <SimpleSlider></SimpleSlider>
+      </div>
       <Projects projectData={ProjectData.projects}/>
 
-      <SimpleSlider></SimpleSlider>
-    
+      
     </Layout>
   )
 }
