@@ -5,8 +5,8 @@ module.exports = {
     description: "much more like an eportfolio than an eportfolio"
   },
   plugins: [
-    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     {
 
