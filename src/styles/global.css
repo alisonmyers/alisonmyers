@@ -505,6 +505,11 @@ ul.links > li {
   
 }
 
+.project-auto-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+}
 .project-post-image:hover {
   cursor: pointer;
 }

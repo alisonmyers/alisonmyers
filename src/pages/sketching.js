@@ -46,12 +46,16 @@ const AboutPage = () => {
 
       <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
 
-
-      <Projects projectData={getObjects(projects, "id", "ETEC512-1")}/>
-
-      <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/>
-
-      <Projects projectData={getObjects(projects, "id", "ETEC510-1")}/>
+      <div className="col-sm-12 col-md-6 col-lg-4">
+        <div>
+        <Projects projectData={getObjects(projects, "id", "ETEC512-1")}/></div>
+        <div>
+        <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/></div>
+        <div>
+        <Projects projectData={getObjects(projects, "id", "ETEC510-1")}/></div>
+        
+      </div>
+     
       
     </Layout>
   )
