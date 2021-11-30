@@ -9,13 +9,14 @@ const AboutPage = () => {
 
   const data = useStaticQuery(
     graphql`
-      query ProjectImages {
-        allDataJson(filter: {title: {eq: "My Projects"}}) {
+      query SketchProjects {
+        allDataJson(filter: {title: {eq: "My Projects"}, projects: {elemMatch: {category: {eq: "sketch"}}}}) {
           nodes {
             title
             projects {
               id
               title
+              category
               course
               date
               goals
@@ -46,15 +47,8 @@ const AboutPage = () => {
 
       <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
 
-      <div className="col-sm-12 col-md-6 col-lg-4">
-        <div>
-        <Projects projectData={getObjects(projects, "id", "ETEC512-1")}/></div>
-        <div>
-        <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/></div>
-        <div>
-        <Projects projectData={getObjects(projects, "id", "ETEC510-1")}/></div>
-        
-      </div>
+
+      <Projects projectData={projects}/>
      
       
     </Layout>

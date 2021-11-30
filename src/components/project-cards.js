@@ -40,7 +40,7 @@ class Projects extends Component {
       var projects = this.props.projectData.map(function (projects) {
         return (
           <React.Fragment>
-              <div>
+              <div className="col-sm-12 col-md-6 col-lg-4">
                 <div className="project-post-container" key={projects.id} >
                   <div className="project-post-header">
                       {projects.title}
