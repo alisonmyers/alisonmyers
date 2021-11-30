@@ -2,6 +2,20 @@
     "title": "My Projects",
     "projects": [
         {
+            "id": "ETEC510-1",
+            "title": "Exploring VR",
+            "date": "2019-09-01",
+            "course": "ETEC 510",
+            "goals": ["1"],
+            "type": "website",
+            "description": " ",
+            "connections": "",
+            "goals_text": "",
+            "reflection": "",
+            "image": "../images/ETEC510-1.png"
+
+        }, 
+        {
             "id": "ETEC512-1",
             "title": "Learning Theories Concept Map",
             "date": "2019-09-01",
