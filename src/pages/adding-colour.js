@@ -8,7 +8,7 @@ const AddingColour = () => {
     const data = useStaticQuery(
       graphql`
         query MoreImages {
-          allDataJson(filter: {title: {eq: "My Projects"}}) {
+          allDataJson(filter: {title: {eq: "My Projects"}, projects: {elemMatch: {category: {eq: "colour"}}}}) {
             nodes {
               title
               projects {
@@ -44,9 +44,7 @@ const AddingColour = () => {
 
         <p>Adding colour to an outlined sketch can be scary - there's no more erasing, and going back is going to take more time. However, at this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
 
-        <Projects projectData={getObjects(projects, "id", "ETEC543-1")}/>
-
-        <Projects projectData={getObjects(projects, "id", "ETEC590-1")}/>
+        <Projects projectData={projects}/>
         
       </Layout>
     )
