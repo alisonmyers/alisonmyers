@@ -23,6 +23,7 @@ const AboutPage = () => {
               connections
               goals_text
               reflection
+              links
               image {
                 childImageSharp {
                   gatsbyImageData(
@@ -50,6 +51,7 @@ const AboutPage = () => {
 
       <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/>
 
+      <Projects projectData={projects}/>
       
     </Layout>
   )
