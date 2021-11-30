@@ -50,8 +50,6 @@ const AboutPage = () => {
       <p>Some text here </p>
 
       <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/>
-
-      <Projects projectData={projects}/>
       
     </Layout>
   )
