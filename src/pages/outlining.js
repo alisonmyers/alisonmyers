@@ -42,7 +42,7 @@ const OutlinePage = () => {
     return (
       <Layout pageTitle="Outlining">
 
-        <p>In my "outlining" phase, I began to understand what areas interested me, and could start applying some of the knowledge learned. I was adding some permanence to the sketches and doodles that I started with.</p>
+        <p>In my "outlining" phase, I began to understand what areas really interested me, and could start applying some of the concepts I was learning. I was adding some permanence to the sketches and doodles that I started with. I had a better understanding of my own style, and some practice under my belt creating sketches that I would want to turn into something more.</p>
 
         <Projects projectData={getObjects(projects, "id", "ETEC520-1")}/>
 
