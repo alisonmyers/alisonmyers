@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
-import getObjects from '../api/get-object'
 import Projects from '../components/project-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -8,10 +7,10 @@ const AddingColour = () => {
     const data = useStaticQuery(
       graphql`
         query MoreImages {
-          allDataJson(filter: {title: {eq: "My Projects"}, projects: {elemMatch: {category: {eq: "colour"}}}}) {
+          allDataJson(filter: {title: {eq: "My Projects"}}) {
             nodes {
               title
-              projects {
+              colour {
                 id
                 title
                 course
@@ -37,7 +36,7 @@ const AddingColour = () => {
       `
     );
 
-    const projects = data.allDataJson.nodes[0].projects;
+    const projects = data.allDataJson.nodes[0].colour;
     
     return (
       <Layout pageTitle="Adding Colour">

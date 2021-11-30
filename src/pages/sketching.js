@@ -2,7 +2,6 @@ import * as React from 'react'
 import Layout from '../components/my-layout'
 import Projects from '../components/project-cards'
 import { useStaticQuery, graphql } from "gatsby"
-import getObjects from '../api/get-object'
 
 
 const AboutPage = () => {
@@ -10,10 +9,10 @@ const AboutPage = () => {
   const data = useStaticQuery(
     graphql`
       query SketchProjects {
-        allDataJson(filter: {title: {eq: "My Projects"}, projects: {elemMatch: {category: {eq: "sketch"}}}}) {
+        allDataJson(filter: {title: {eq: "My Projects"}}) {
           nodes {
             title
-            projects {
+            sketch {
               id
               title
               category
@@ -40,7 +39,7 @@ const AboutPage = () => {
     `
   );
 
-  const projects = data.allDataJson.nodes[0].projects;
+  const projects = data.allDataJson.nodes[0].sketch;
 
   return (
     <Layout pageTitle="Sketching and Doodling">
