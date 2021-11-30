@@ -28,7 +28,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         dialogClassName="my-modal"
@@ -40,7 +40,7 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
-        <div>
+        <div class="p-12 m-12 border-solid border-4">
         <GatsbyImage image={getImage(image)}/> 
         </div>
         <div className="col-md-12">

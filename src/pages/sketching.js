@@ -26,7 +26,9 @@ const AboutPage = () => {
               reflection
               image {
                 childImageSharp {
-                  gatsbyImageData
+                  gatsbyImageData(
+                    placeholder:BLURRED
+                  )
                 }
               }
             }
@@ -51,6 +53,8 @@ const AboutPage = () => {
       <p>Some text here </p>
 
       <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/>
+
+      <Projects projectData={projects}></Projects>
       
     </Layout>
   )

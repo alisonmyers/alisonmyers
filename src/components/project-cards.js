@@ -43,7 +43,11 @@ class Projects extends Component {
             key={projects.id}>
               <div className="project-post-card" onClick={() => detailsModalShow(projects)}>{projects.title}
 
-                  <GatsbyImage image={getImage(projects.image)}/>
+              <div class="border-solid border-4">
+                <GatsbyImage image={getImage(projects.image)}/>
+              </div>
+
+                  
                   <ul class="icons">
                   {projects.goals.map((goal, i) =>
                     <li key={i}><GoalIcon iconName={goal} size={10}/></li>
