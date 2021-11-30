@@ -12,7 +12,9 @@
             "connections": "",
             "goals_text": "",
             "reflection": "",
-            "image": "../images/ETEC510-1.png"
+            "image": "../images/ETEC510-1b.png",
+            "links": ["https://edu.cospaces.io/GLQ-BMB", "https://www.reddit.com/r/VReducationProduction"]
+
 
         }, 
         {
@@ -26,7 +28,8 @@
             "connections": "what connections can I make",
             "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
             "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "image": "../images/ETEC512-1.png"
+            "image": "../images/ETEC512-1.png",
+            "links": ["https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e"]
 
         }, 
         {
@@ -40,7 +43,8 @@
             "connections": "what connections can I make",
             "goals_text": "Some text <br> more text",
             "reflection": "reflection on project",
-            "image": "../images/ETEC512-2.png"
+            "image": "../images/ETEC512-2.png",
+            "links": ["https://rise.articulate.com/share/kAPXNTL2603967LvhLp7PRUNXFe7UJm3#/"]
         },
 
         {
@@ -54,7 +58,8 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/ETEC520-1.png"
+            "image": "../images/ETEC520-1.png",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub"]
         }, 
 
         {
@@ -68,7 +73,8 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/vancouver_city.jpg"
+            "image": "../images/ETEC530-1/png",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"]
         },
 
         {
@@ -82,7 +88,8 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/ETEC543-1.png"
+            "image": "../images/ETEC543-1.png",
+            "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"]
         },
 
         {
@@ -96,7 +103,8 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/ETEC524-1.png"
+            "image": "../images/ETEC524-1.png",
+            "links": ["https://intro-to-data-and-viz.github.io/introduction"]
 
         }, 
 
@@ -111,7 +119,8 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/ETEC590-1.png"
+            "image": "../images/ETEC590-1.png",
+            "links": []
 
         }
     ]
