@@ -1,6 +1,7 @@
 import React from "react"
 import GoalData from "../data/MyGoals.json"
 
+import bookrowSketch from "../images/bookrow-sketch.png"
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
@@ -22,7 +23,7 @@ const GoalIcon = ({iconName}) => {
 const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
         return (
-            <div key={i} className="goal-card-container">
+            <div key={i} className="goal-card-container" style={{ backgroundImage: `url(${bookrowSketch})`}}>
 
                 <div className="goal-card-title">
                     <h2> {data.goal_title} </h2>
@@ -34,6 +35,10 @@ const GoalsHtml = () => (
                 
                 <div className="goal-card-content">
                     <p>{data.goal_description}</p>
+                </div>
+
+                <div className="goal-card-footer">
+                    <p></p>
                 </div>
                 
             </div>
