@@ -47,7 +47,7 @@ const IndexPage = () => {
 
       <section> 
         <h1 className="main-heading">My Goals</h1>
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-4">
         <GoalsHtml></GoalsHtml>
         </div>
       </section>
