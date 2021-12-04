@@ -66,6 +66,7 @@
     --color-heading-black: black;
     --color-accent: #acc2d4;
     --color-second-accent: #f3f1bd;
+    --color-background-main: white; 
   }
   
   /* HTML elements */
@@ -171,6 +172,7 @@
     --x-height-multiplier: 0.35;
     margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
     padding: var(--spacing-0);
+    /*background-color: var(--color-background-main);*/
   }
   
   ul,
@@ -467,12 +469,12 @@ ul.links > li {
   grid-area: content;
 }
 
-.goal-card-artifacts {
+.goal-card-footer {
   grid-area: footer;
-  display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  background-size: 100% 100%
+  background-size: 100% 100%;
+  min-height: 30px; 
 
 }
 
