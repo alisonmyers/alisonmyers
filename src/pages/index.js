@@ -17,6 +17,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="this ePortfolio">
 
+      
+
       <section>
       <p>The purpose of my ePortfolio is to make connections between the courses I have taken throughout the MET program in order to ensure and demonstrate my understanding of the concepts that will be valuable for future endeavours. Throughout the development of the ePortfolio I expect to revisit concepts and course work in order to make connections between the work I have completed.</p> 
         
@@ -45,7 +47,7 @@ const IndexPage = () => {
 
       <section> 
         <h1 className="main-heading">My Goals</h1>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-4 gap-2">
         <GoalsHtml></GoalsHtml>
         </div>
       </section>
