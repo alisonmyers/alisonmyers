@@ -94,15 +94,15 @@ const IndexPage = () => {
           </p>
         </div>
 
-        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfSketch})` }}>
+        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfSketch})` }}>
         <SketchSection></SketchSection>
         </div>
 
-        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfOutline})` }}>
+        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfOutline})` }}>
         <OutlineSection></OutlineSection>
         </div>
 
-        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfColour})` }}>
+        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfColour})` }}>
         <ColourSection></ColourSection>
         </div>
       </section>
