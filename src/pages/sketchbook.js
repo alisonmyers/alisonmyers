@@ -15,7 +15,6 @@ const ArtifactsPage = () => {
     return(
         <Layout pageTitle="My Sketchbook">
         <section> 
-        <h1 className="main-heading">Metaphor</h1> 
 
         <div>
           <p>
