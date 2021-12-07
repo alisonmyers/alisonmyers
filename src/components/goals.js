@@ -1,28 +1,10 @@
 import React from "react"
 import GoalData from "../data/MyGoals.json"
 
-import bookrowSketch from "../images/bookrow-sketch.png"
-import { StaticImage } from "gatsby-plugin-image"
-
-
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
 import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
 import { BiCool } from "@react-icons/all-files/bi/BiCool";
-
-export function Dino() {
-    return (
-      <StaticImage
-        src="../images/bookrow-sketch.png"
-        alt="A dinosaur"
-        placeholder="blurred"
-        layout="fixed"
-        width={200}
-        height={200}
-      />
-    )
-  }
-
 
 const goals = {
     1: ImBubbles2,
@@ -54,12 +36,6 @@ const GoalsHtml = () => (
                 </div>
 
                 <div className="goal-card-footer">
-                    <StaticImage
-                    src="../images/bookrow-sketch.png"
-                    alt="A dinosaur"
-                    placeholder="blurred"
-                    height={25}
-                />
                 </div>
 
 

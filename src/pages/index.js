@@ -11,6 +11,8 @@ import bookshelfSketch from "../images/bookshelf-sketch.png"
 import bookshelfOutline from "../images/bookshelf-outline.png"
 import bookshelfColour from "../images/bookshelf-colour.png"
 
+import bookrowSketch from "../images/bookrow-sketch.png"
+
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -36,7 +38,7 @@ const IndexPage = () => {
           <p>You'll notice some incomplete sections so far, but here are my plans:</p>
 
           <ul>
-            <li>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
+            <li style={{}}>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
             <li>2. Make icons "clickable" - right now many icons are static, but they should actually provide more information when interacted with (see 1.)</li>
             <li>3. Add a vertical navigation. I am experimenting with a single page layout, but it requires better navigation options</li>
           </ul>
