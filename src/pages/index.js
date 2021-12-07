@@ -34,21 +34,7 @@ const IndexPage = () => {
       <p> This portfolio is designed to showcase learning, reflection, and artifacts that have taken place throughout my MET journey. Each of my goals and artifacts are dynamically tagged with icons to make connections between them. You will see highlighted text which indicates the abilility to hover for more information. Each artifact you will see below is clickable. You can select the image to expand for more detail, or where available you can select the external link icon to view the artifact in a new page.</p>
       </section>
       
-      <section>
-        <div class="todo-card">
-        <h3>WIP</h3>
-          <p>You'll notice some incomplete sections so far, but here are my plans:</p>
-
-          <ul>
-            <li style={{}}>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
-            <li>2. Make icons "clickable" - right now many icons are static, but they should actually provide more information when interacted with (see 1.)</li>
-            <li>3. Add a vertical navigation. I am experimenting with a single page layout, but it requires better navigation options</li>
-          </ul>
-        </div>
-        </section>
-      
-
-
+    
       <section> 
         <h1 className="main-heading">My Goals</h1>
 
