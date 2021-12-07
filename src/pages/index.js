@@ -3,15 +3,6 @@ import * as React from 'react';
 import Layout from '../components/my-layout';
 import GoalsHtml from '../components/goals';
 
-import SketchSection from '../components/sketching'
-import OutlineSection from '../components/outlining'
-import ColourSection from '../components/adding-colour'
-
-import bookshelfSketch from "../images/bookshelf-sketch.png"
-import bookshelfOutline from "../images/bookshelf-outline.png"
-import bookshelfColour from "../images/bookshelf-colour.png"
-
-
 import { StaticImage } from "gatsby-plugin-image"
 
 
@@ -55,42 +46,6 @@ const IndexPage = () => {
         </p>
         <p>The selection of educational technologies, at any scale, require a critical analysis of the needs and context. In order to influence the selection of technologies it is important to demonstrate the ability to use and/or create frameworks for such decisions. The selection of technologies should also build upon the educational context, which can be influenced by learning theories.</p>
         <p>Demomnstrating the ability to create content and/or technologies is ...</p>
-      </section>
-
-
-      <section> 
-        <h1 className="main-heading">My MET Journey</h1> 
-
-        <div>
-          <p>
-          The metaphor that I have chosen is the process of creating a piece of art: from a sketchbook to the final art piece. The metaphor is appropriate for my MET journey as I haven’t felt like it has been a linear path, and I wanted a metaphor that could reflect the iteration and understanding that has occurred through different courses. Important concepts might have started as a doodle or sketch, but through different courses the ideas became more clear. I picked up various “techniques” (technologies, methods of learning) throughout the program that I am now more comfortable using. 
-          </p>
-          <p>
-          <p>The phases of my MET journey include</p>
-          <ul class="flex gap-4 space-x-4 p-4...">
-            <li class="flex-1 ..." >
-              <span class="font-bold ...">Sketch and Doodle: </span> Starts with just getting started - putting pencil to paper and doodling. The doodling can help form more concrete thoughts for sketches that might start to take shape - and leads to a more thoughtful sketch of an idea. Sketching can also be a chance to test out new techniques that have been learned. </li>
-            <li class="flex-1 ...">
-            <span class="font-bold ...">Outline and Detail: </span> Once an idea has formed and been sketched / changed, it is time to outline the sketch in a more permanent way. </li>
-            <li class="flex-1 ...">
-            <span class="font-bold ...">Adding Colour: </span>Adding colour, detail, and all of the interesting detail to what used to be just a sketch or a doodle. </li>
-            </ul>
-        
-          
-          </p>
-        </div>
-
-        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfSketch})` }}>
-        <SketchSection></SketchSection>
-        </div>
-
-        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfOutline})` }}>
-        <OutlineSection></OutlineSection>
-        </div>
-
-        <div className="bg-fixed md:bg-fixed bg-contain ..." style={{ backgroundImage: `url(${bookshelfColour})` }}>
-        <ColourSection></ColourSection>
-        </div>
       </section>
 
     </Layout>
