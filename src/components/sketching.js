@@ -44,7 +44,7 @@ const SketchSection = () => {
     <React.Fragment>
 
       <div className>       
-        <div className="bg-white p-5">
+        <div className="bg-white">
 
         <h2 className="bg-white">Sketches and Doodles</h2>
 

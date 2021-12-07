@@ -40,7 +40,7 @@ const OutlineSection = () => {
     return (
       <React.Fragment>
 
-      <div className="bg-white p-5">
+      <div className="bg-white">
 
 
         <h2>Outline and Detail</h2>
