@@ -21,7 +21,7 @@ const ColourSection = () => {
                 reflection
                 links
                 tags
-                groups
+                group
                 image {
                   childImageSharp {
                     gatsbyImageData(

@@ -258,6 +258,7 @@
     margin: var(--spacing-24) var(--spacing-32) var(--spacing-4);
     max-width: var(--maxWidth-wrapper);
     padding: var(--spacing-2) var(--spacing-32);
+
   }
   
   .global-wrapper[data-is-root-path="true"] .bio {
@@ -541,11 +542,22 @@ ul.links > li {
 .project-post-links {
   grid-area: links;
   justify-content: right;
+}
 
+.project-post-tags {
+  grid-area: tags;
+  justify-content: left;
+}
+
+.tag-border {
+  background-color: var(--color-text);
+  border-radius: 20px;
+  font-size: 50%;
+  color: white;
 }
 
 .project-post-container {
-  background-color: white;
+  background-color: var(--color-background-main);
   max-height: 500px;
   max-width: 500px;
   min-width: 250px;
@@ -556,10 +568,11 @@ ul.links > li {
   margin: var(--spacing-4);
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: 10% 10% 70% 10%;
   grid-template-areas: 
     "header header"
-    "image image "
+    "tags tags"
+    "image image"
     "goals links";
 
 }
