@@ -82,6 +82,7 @@
             "date": "2019-06-02",
             "course": "ETEC 520",
             "goals": ["4"],
+            "group": "",
             "type": "paper",
             "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
             "connections": "In ETEC 520 we had a series of assignments that asked us to evaluate institutional approaches, preparedness for, and implementation of **e-learning**. This was one of the first courses that introduced concepts about educational technology at an institutional level. ",
@@ -136,6 +137,7 @@
             "date": "2019-11-01",
             "course": "ETEC 543",
             "goals": ["1", "3"],
+            "group": "",
             "type": "dashboard",
             "description": "Learning Analytics can be used to inform instructors about their student experience in online environments, and provide information about the courses they have developed and taught. However, many learning analytics systems miss instructor intent in the provided data. This dashboard was designed to demonstrate the value of including learning design in a learning analytics dashboard.",
             "connections": "This was one of two Tableau projects developed over the course of my MET experience. The prototype was an important stepping stone for the development of a dashboard template for my self-directed ETEC 590 project.",
@@ -143,7 +145,8 @@
             "reflection": "",
             "image": "../images/ETEC543-1.png",
             "iframe": "",
-            "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"]
+            "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"],
+            "tags": ["dashboard", "design"]
         },
 
         {

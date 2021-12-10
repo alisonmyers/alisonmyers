@@ -20,6 +20,8 @@ const ColourSection = () => {
                 goals_text
                 reflection
                 links
+                tags
+                groups
                 image {
                   childImageSharp {
                     gatsbyImageData(

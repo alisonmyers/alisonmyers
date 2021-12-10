@@ -23,6 +23,8 @@ const SketchSection = () => {
               goals_text
               reflection
               links
+              tags
+              group
               image {
                 childImageSharp {
                   gatsbyImageData(
