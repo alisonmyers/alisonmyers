@@ -542,7 +542,7 @@ ul.links > li {
 }
 
 .project-post-goals {
-  grid-area: goals
+  grid-area: goals;
 }
 
 .project-post-links {
@@ -574,7 +574,7 @@ ul.links > li {
   margin: var(--spacing-4);
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 10% 10% 70% 10%;
+  grid-template-rows: auto;
   grid-template-areas: 
     "header header"
     "tags tags"
