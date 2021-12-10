@@ -40,23 +40,23 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
-        <div class="p-12 m-12 border-solid border-4">
+        <div class="p-4 m-4">
         <GatsbyImage image={getImage(image)}/> 
         </div>
         <div className="col-md-12">
             <Slider {...settings}>
-                  <div className="pdf-container">
+                  <div className="modal-slide">
 
                       <h3>Description</h3>
                       <p>{description}</p>
                   </div>
 
-                  <div className="pdf-container">
+                  <div className="modal-slide">
                       <h3>Reflection</h3>
                       <p>{reflection}</p>
                   </div>
 
-                  <div className="pdf-container">
+                  <div className="modal-slide">
                       <h3>Connections</h3>
                       <p>{connections}</p>
                   </div>

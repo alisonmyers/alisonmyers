@@ -595,8 +595,14 @@ ul.links > li {
 }
 
 .my-modal {
-  width: 80%;
   max-width: 90vw;
-  max-height: 70%;
+  max-height: 90vw;
   background-color: "white";
+}
+
+.modal-slide {
+  padding: var(--spacing-4);
+  margin: var(--spacing-4);
+  width: 90%;
+  background-color: white; 
 }
