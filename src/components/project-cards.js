@@ -71,7 +71,7 @@ class Projects extends Component {
                   <div className="project-post-goals">
                     <ul class="icons">
                     {projects.goals.map((goal, i) =>
-                      <li key={i}><GoalIcon iconName={goal} size={10}/></li>
+                      <li className="icons" key={i}><GoalIcon iconName={goal} size={10}/></li>
                     
                     )}
                     </ul>

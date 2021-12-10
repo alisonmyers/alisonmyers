@@ -380,7 +380,7 @@
 
 .nav-link-item {
   padding-right: 5rem;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
   
   
 }
@@ -412,6 +412,12 @@ ul.icons > li {
   font-size: var(--fontSize-4);
   justify-content: center;
   align-items: center;
+}
+
+li.icons:hover,
+li.icons:focus {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 ul.links {
