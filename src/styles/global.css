@@ -420,6 +420,20 @@ li.icons:focus {
   color: var(--color-primary);
 }
 
+ul.tags {
+  padding-left: 0px;
+  text-align: centre;
+  margin: 0px;
+
+}
+
+ul.tags > li {
+  display: inline-block;
+  font-size: var(--fontSize-2);
+  justify-content: center;
+  align-items: center;
+}
+
 ul.links {
   padding-left: 0px;
   text-align: right;
@@ -466,6 +480,21 @@ ul.links > li {
   grid-area: sidebar;
   justify-self: center;
   font-size: 1.5em
+}
+
+.icons:hover:after {
+  position: absolute;
+  content: attr(title);
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: 400px;
+  height: 220px;
+  border-radius: 25px;
+  border: 1px solid #999;
 }
 
 .goal-card-title {
@@ -558,6 +587,7 @@ ul.links > li {
 .tag-border {
   background-color: var(--color-text);
   border-radius: 20px;
+  padding: 2px;
   font-size: 50%;
   color: white;
 }

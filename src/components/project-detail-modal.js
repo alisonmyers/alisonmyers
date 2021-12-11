@@ -14,7 +14,9 @@ class ProjectDetailsModal extends Component {
       var description = this.props.data.description;
       var connections = this.props.data.connections;
       var reflection = this.props.data.reflection;
-      var image = this.props.data.image
+      var image = this.props.data.image;
+      var group = this.props.data.group;
+  
     }
 
     var settings = {
@@ -48,6 +50,7 @@ class ProjectDetailsModal extends Component {
                   <div className="modal-slide">
 
                       <h3>Description</h3>
+                      <p>{group}</p>
                       <p>{description}</p>
                   </div>
 

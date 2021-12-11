@@ -87,7 +87,7 @@ class Projects extends Component {
                     </div>
 
                   <div className="project-post-tags">
-                    <ul className="icons">
+                    <ul className="tags">
                       {taglist}
                     </ul>
                   </div>
