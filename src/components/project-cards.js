@@ -48,7 +48,7 @@ class Projects extends Component {
             return (
               <li key={i}>
                   <p className="tag-border">
-                        #{tag}
+                        {tag}
                     </p>
               </li>
             );

@@ -22,6 +22,7 @@ const OutlineSection = () => {
                 links
                 tags
                 group
+                iframe
                 image {
                   childImageSharp {
                     gatsbyImageData(

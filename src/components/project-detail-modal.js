@@ -18,6 +18,15 @@ class ProjectDetailsModal extends Component {
       var image = this.props.data.image;
       var group = this.props.data.group;
 
+      if (this.props.data.iframe) {
+        var hasIframe = true
+        var iframeSrc = this.props.data.iframe
+        console.log(iframeSrc)
+      } else {
+        var hasIframe = false
+      }
+
+
 
       if (this.props.data.group) {
         var hasGroup = true
@@ -35,7 +44,8 @@ class ProjectDetailsModal extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight: false
+      adaptiveHeight: false,
+      scrollable: true
     };
 
     return (
@@ -54,15 +64,14 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <Modal.Body> 
-        <span> 
-            <div className="small-container" style={{float: "left"}}>
-            <GatsbyImage image={getImage(image)}/> 
-            </div>
-        </span>
         <div>
             <Slider {...settings}>
                   <div className="modal-slide">
-                     
+                  <span> 
+                    <div className="small-container" style={{float: "left"}}>
+                        <GatsbyImage image={getImage(image)}/> 
+                        </div>
+                    </span>
                       <p>
                         {hasGroup &&  
                          <p>Group Members: {group} </p>}
@@ -80,6 +89,15 @@ class ProjectDetailsModal extends Component {
                       <h2>Connections</h2>
                       <div dangerouslySetInnerHTML={{ __html: connections }} />
                   </div>
+
+                  
+                  {hasIframe &&
+                  
+                  <div className="pdf-container">
+                  <iframe src={iframeSrc} height="500px" width="1000px">
+                  </iframe>
+                  </div>}
+                  
 
                   
              

@@ -25,6 +25,7 @@ const SketchSection = () => {
               links
               tags
               group
+              iframe
               image {
                 childImageSharp {
                   gatsbyImageData(

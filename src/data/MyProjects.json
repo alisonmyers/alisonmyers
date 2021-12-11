@@ -4,7 +4,7 @@
 
             {
                 "id": "ETEC510-1",
-                "title": "Exploring VR",
+                "title": "Exploring Virtual Reality",
                 "category": "sketch",
                 "date": "2019-09-01",
                 "course": "ETEC 510",
@@ -31,12 +31,13 @@
                 "goals": ["1", "3", "4"],
                 "group": "",
                 "type": "website",
-                "description": "This wordpress blog was designed as an introduction to a FitBit for new users. It was an opportunity to develop content. This was one of my first uses of Wordpress.",
-                "connections": "While only a few years ago, this artifact shows just how quickly technology is changing. I created this artifact to showcase a new (to me) wearable device. Since that time, I no longer use a fitbit, rather changed to an Apple Watch. ... digital archeaology...",
+                "description": "This wordpress blog was designed as an introduction to fitbits for new users. It was an opportunity to develop content for particular users (i.e. new fitbit owners). This was one of my first uses of Wordpress.",
+                "connections": "While only a few years ago, this artifact shows just how quickly technology is changing. I created this artifact to showcase a new (to me) wearable device. This artifact is included because it shows growth, but it also shows a challenge with web content - it can become outdated quickly! Not only is the content out of date (there are newer fitbits, and more advanced wearable tech), but the site itself is out of date. There are missing gifs, for example.",
                 "goals_text": "",
                 "reflection": "Feedback I received after creating this artifact included considering the limitations of a static website for the development of community. While I agree this is the case, I disagree that there is a need for all technologies to do all things. Community engagement is important, but did not fit with the intention of my design.",
                 "image": "../images/ETEC510-2.png",
                 "links": ["https://blogs.ubc.ca/alisonmyers/2019/01/22/day-2-so-you-still-have-a-fitbit/"], 
+                "iframe": "",
                 "tags": ["design", "tinkering", "intention"]
     
             }, 
@@ -53,9 +54,11 @@
                 "description": "This concept map was developed to demonstrate understanding of the history and context of important learning theories. It highlights key figures and connections between these theories.",
                 "connections": "This artifact introduced me to a tool that I have integrated into my learning and sharing of knowledge - concept maps and diagrams. his was one of (many) concept maps I developed throughout the MET program. Diagrams have become a more regular tool both personally and professionally.",
                 "goals_text": "",
-                "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to understand context of the three. One struggle that I have with learning theories is shared terminology but different interpretations of the language when moving between philosophy, psychology, and education.",
+                "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to understand context of the three which includes <span class='tag-text'>theory</span>. One struggle that I have with learning theories is shared terminology but different interpretations of the language when moving between philosophy, psychology, and education.",
                 "image": "../images/ETEC512-1.png",
-                "links": ["https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e"]
+                "links": ["https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e"],
+                "iframe": "",
+                "tags": ["theory"]
     
             }, 
             {
@@ -66,13 +69,15 @@
                 "course": "ETEC 512",
                 "goals": ["1", "3", "4"],
                 "type": "website",
-                "group": "group members",
-                "description": "This 'introductory course' was developed to introduce our peers to the neuroscience of learning. My background is in psychology, so the development of the content and the course itself was also an opportunity to review some of these concepts myself, but to think about them from the perspective of course design, or in relation to other learning theories.",
-                "connections": "We used Rise as our platform for developing our course. It truly was pleasure to build because the platform itself was quite intuitive, dealt with the 'look and feel', and offered customization that we thought was important. ",
+                "group": "Sieme Adhémar, Deisy Castillo, Jonathan Lapierre",
+                "description": "This 'introductory course' was developed to introduce our peers to the neuroscience of learning. We had to consider the level of knowledge the audience would have, and develop materials that would be engaging to that audience. Further, we considered My background is in psychology, so the development of the content and the course itself was also an opportunity to review some of these concepts myself, but to think about them from the perspective of course design, or in relation to other learning theories.",
+                "connections": "We used Rise as our platform for developing our course. It truly was pleasure to <span class='tag-text'>design</span> and build because the platform itself was quite intuitive, dealt with the 'look and feel', and offered customization that we thought was important. ",
                 "goals_text": "",
                 "reflection": "Course discussion often centered around what level of expertise in the many areas of learning were required by educators. 'Do educators need to be experts in neuroscience?', for example. The general concensus was that expertise is not required, but the ability to evaluate information is. We included 'neuromyths' throughout our neuroscience course. Neuromyths are commonly held beliefs about how the brain works, even when there is no scientific evidence to support these beliefs. Or worse, when there is scientific evidence to the opposite of the myth. The challenge for educators is that neuromyths are pervasive online - from personal blogs, to educational vendor solutions. While it is not necessary for educators to be experts in neuroscience, they need to have the skills to identify neuromyths when they see them. ETEC 500 was an important course for the develpoment of these types of skills.",
                 "image": "../images/ETEC512-2.png",
-                "links": ["https://rise.articulate.com/share/kAPXNTL2603967LvhLp7PRUNXFe7UJm3#/"]
+                "links": ["https://rise.articulate.com/share/kAPXNTL2603967LvhLp7PRUNXFe7UJm3#/"],
+                "iframe": "",
+                "tags": ["design"]
             }
 
     ],
@@ -83,14 +88,14 @@
             "category": "outline",
             "date": "2019-06-02",
             "course": "ETEC 520",
-            "goals": ["4"],
+            "goals": ["1", "2"],
             "group": "",
             "type": "paper",
             "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
             "connections": "In ETEC 520 we had a series of assignments that asked us to evaluate institutional approaches, preparedness for, and implementation of **e-learning**. This was one of the first courses that introduced concepts about educational technology at an institutional level. ",
             "goals_text": "",
             "reflection": "In the creation of these artifacts, it became apparent that **institutional culture** is a hard-to-define yet important consideration when considering educational technology at scale.",
-            "iframe": "",
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub",
             "image": "../images/ETEC520-1.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub"]
         }, 
@@ -110,6 +115,7 @@
             "reflection": "",
             "image": "../images/ETEC530-1.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
+            "iframe": "",
             "tags": ["design", "constructivism", "professionaldevelopment"]
         },
         {
@@ -126,6 +132,7 @@
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
             "image": "../images/ETEC524-1.png",
+            "iframe": "",
             "links": ["https://intro-to-data-and-viz.github.io/introduction"],
             "tags": ["design", "tinkering"]
 
@@ -155,19 +162,20 @@
 
         {
             "id": "ETEC590-1",
-            "title": "Another LA Dashboard",
+            "title": "The IKEA Model: A Learning Analytics Tool",
             "category": "colour",
             "date": "2021-08-20",
             "course": "ETEC 580",
             "goals": ["3"],
             "group": "",
             "type": "website",
-            "description": "",
+            "description": "This project had two components: a final dashboard (seen here), and a github repo (linked). The github repo contains code that was developed to download, clean, and transform the data that ultimately ended up in the dashboard. The goal of this project was to build a tool that was useful to instructors who use Canvas, who are interested in Learning Analytics but may not have the infrastructure at their university to make the most out of Canvas Analytics.",
             "connections": "",
             "goals_text": "",
             "reflection": "",
             "image": "../images/ETEC580-1.png",
-            "links": ["https://github.com/saud-learning-services/course-details"]
+            "links": ["https://github.com/saud-learning-services/course-details"],
+            "iframe": ""
 
         },
       
@@ -185,6 +193,7 @@
             "goals_text": "how does this relate to my goals",
             "reflection": "I had hoped to do more writing and research throughout my courses - as this is not something I normally have much time for in my day-to-day. However, when the option was available to create something, that was the path I generally took.",
             "image": "../images/ETEC590-1.png",
+            "iframe": "",
             "links": ["https://alisonmyers.gatsby.io/blogs"]
 
         }

@@ -22,6 +22,7 @@ const ColourSection = () => {
                 links
                 tags
                 group
+                iframe
                 image {
                   childImageSharp {
                     gatsbyImageData(

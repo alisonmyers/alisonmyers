@@ -587,7 +587,7 @@ ul.links > li {
 .tag-border {
   background-color: var(--color-text);
   border-radius: 20px;
-  padding: 4px;
+  padding: 4px 8px;
   font-size: 50%;
   color: white;
 }
@@ -595,7 +595,7 @@ ul.links > li {
 .tag-text {
   background-color: var(--color-text);
   border-radius: 20px;
-  padding: 2px;
+  padding: 2px 4px;
   font-size: 90%;
   color: white;
 }
@@ -628,8 +628,8 @@ ul.links > li {
   border-radius: 5px; /* 5px rounded corners */
   padding: var(--spacing-4);
   margin: var(--spacing-4);
-  height: 400px;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   background-color: white; 
 }
 
