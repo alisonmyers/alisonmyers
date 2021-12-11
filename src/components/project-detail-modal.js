@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
 import Slider from "react-slick";
 
@@ -16,7 +17,24 @@ class ProjectDetailsModal extends Component {
       var reflection = this.props.data.reflection;
       var image = this.props.data.image;
       var group = this.props.data.group;
-  
+      
+      if (this.props.data.links) {
+        console.log(links)
+
+        var links = function() {
+          return (
+            <div className="project-post-links">
+            <ul class="links">
+                {this.props.data.links.map((link, i) =>
+                    <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
+                  )}
+              </ul>
+            </div>
+          )
+        }
+
+      }
+
     }
 
     var settings = {
@@ -24,7 +42,8 @@ class ProjectDetailsModal extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      adaptiveHeight: false
     };
 
     return (
@@ -42,13 +61,15 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
-        <div class="p-4 m-4">
-        <GatsbyImage image={getImage(image)}/> 
-        </div>
-        <div className="col-md-12">
+        <Modal.Body> 
+        <span> 
+            <div className="small-container" style={{float: "left"}}>
+            <GatsbyImage image={getImage(image)}/> 
+            </div>
+        </span>
+        <div>
             <Slider {...settings}>
                   <div className="modal-slide">
-
                       <h3>Description</h3>
                       <p>{group}</p>
                       <p>{description}</p>
@@ -63,9 +84,17 @@ class ProjectDetailsModal extends Component {
                       <h3>Connections</h3>
                       <p>{connections}</p>
                   </div>
+
+                  
              
             </Slider>
         </div>
+        </Modal.Body>
+
+        <Modal.Footer>
+          {links}
+        </Modal.Footer>
+  
       </Modal>
     );
   }

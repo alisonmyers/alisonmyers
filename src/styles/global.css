@@ -624,6 +624,14 @@ ul.links > li {
   background-color: white; 
 }
 
+.small-container {
+  height: 500px;
+  width: 500px;
+  object-fit: fill;
+  padding: 10px;
+  margin: 10px;
+}
+
 .my-modal {
   max-width: 90vw;
   max-height: 90vw;
@@ -635,4 +643,10 @@ ul.links > li {
   margin: var(--spacing-4);
   width: 90%;
   background-color: white; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--color-primary)!important;
+  background-color: white!important;
 }
