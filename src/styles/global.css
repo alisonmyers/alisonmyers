@@ -587,10 +587,19 @@ ul.links > li {
 .tag-border {
   background-color: var(--color-text);
   border-radius: 20px;
-  padding: 2px;
+  padding: 4px;
   font-size: 50%;
   color: white;
 }
+
+.tag-text {
+  background-color: var(--color-text);
+  border-radius: 20px;
+  padding: 2px;
+  font-size: 90%;
+  color: white;
+}
+
 
 .project-post-container {
   background-color: var(--color-background-main);

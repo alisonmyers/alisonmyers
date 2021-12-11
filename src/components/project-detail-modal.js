@@ -17,24 +17,16 @@ class ProjectDetailsModal extends Component {
       var reflection = this.props.data.reflection;
       var image = this.props.data.image;
       var group = this.props.data.group;
-      
-      if (this.props.data.links) {
-        console.log(links)
 
-        var links = function() {
-          return (
-            <div className="project-post-links">
-            <ul class="links">
-                {this.props.data.links.map((link, i) =>
-                    <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
-                  )}
-              </ul>
-            </div>
-          )
-        }
 
+      if (this.props.data.group) {
+        var hasGroup = true
+
+      } else {
+        var hasGroup = false
       }
 
+     
     }
 
     var settings = {
@@ -55,7 +47,7 @@ class ProjectDetailsModal extends Component {
         dialogClassName="my-modal"
       >
         <Modal.Header closeButton>
-          <Modal.Title>{title}</Modal.Title>
+          <Modal.Title><h1>{title}</h1></Modal.Title>
         </Modal.Header>
         
         <span onClick={this.props.onHide} className="modal-close">
@@ -70,19 +62,23 @@ class ProjectDetailsModal extends Component {
         <div>
             <Slider {...settings}>
                   <div className="modal-slide">
-                      <h3>Description</h3>
-                      <p>{group}</p>
-                      <p>{description}</p>
+                     
+                      <p>
+                        {hasGroup &&  
+                         <p>Group Members: {group} </p>}
+                      </p>
+                      <h2>Description</h2>
+                      <div dangerouslySetInnerHTML={{ __html: description }} />
                   </div>
 
                   <div className="modal-slide">
-                      <h3>Reflection</h3>
-                      <p>{reflection}</p>
+                      <h2>Reflection</h2>
+                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
                   </div>
 
                   <div className="modal-slide">
-                      <h3>Connections</h3>
-                      <p>{connections}</p>
+                      <h2>Connections</h2>
+                      <div dangerouslySetInnerHTML={{ __html: connections }} />
                   </div>
 
                   
@@ -90,10 +86,6 @@ class ProjectDetailsModal extends Component {
             </Slider>
         </div>
         </Modal.Body>
-
-        <Modal.Footer>
-          {links}
-        </Modal.Footer>
   
       </Modal>
     );
